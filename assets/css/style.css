@@ -34,13 +34,17 @@ header nav {
 }
 
 header nav ul li {
-    display: inline;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 footer {
@@ -245,6 +249,7 @@ section {
 
 .contact h2 {
     color: #fce138;
+    border-bottom: solid #39a6b2;
 }
 
 .contact-info iframe {
@@ -258,7 +263,7 @@ section {
     vertical-align: top;
     text-align: left;
     margin: 30px 0 0 60px;
-    color: white;
+    color: white !important; 
 }
 
 .contact-info h3 {
@@ -266,27 +271,27 @@ section {
     font-size: 32px;
   }
   
-  .contact-info p, .contact-info address {
+.contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 20px;
     font-style: normal;
-  }
+}
   
-  .contact-info a {
+.contact-info a {
     color: #fce138;
-  }
+}
   
   /* REACH OUT STYLES END */
 
-  .hero {
+.hero {
     margin:20px;
     background-color: white;
     font-size: 20px; 
     color: #39a6b2;
-  }
+}
 
-  .hero-secondary {
+.hero-secondary {
     background-color: black;
     color: red;
-  }
+}
