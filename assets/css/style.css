@@ -38,7 +38,7 @@ header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align: center;
+    align-items: center;
     list-style: none;
 }
 
@@ -95,6 +95,8 @@ section {
     width: 600px;
     bottom: 0px;
     right: 0px;
+    width: 40%;
+    margin: 3.5%;
 }
 
 .hero-form p {
@@ -307,7 +309,6 @@ section {
 
 .contact-info iframe {
     height: 400px;
-    width: 400px;
 }
 
 .contact-info div {
@@ -344,8 +345,6 @@ section {
     background: #fce138;
     color: #024e76;
     text-align: center;
-    padding: 15px 0;
-    dont-size: 16px;
   }
   
   .contact-info a {
