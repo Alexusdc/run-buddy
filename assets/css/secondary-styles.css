@@ -1,4 +1,5 @@
 .hero {
+    background-image: url("../images/flipped-hero-image.jpeg");
     background-position: botton;
     height: auto; 
     text-align: center;
