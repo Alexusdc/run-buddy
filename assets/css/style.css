@@ -43,7 +43,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -86,6 +86,7 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .hero-form {
@@ -93,9 +94,9 @@ section {
     background-color: #fce138;
     padding: 20px;
     color:#024e76;
-    width: 600px;
-    bottom: 0px;
-    right: 0px;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
     width: 40%;
     margin: 3.5%;
 }
@@ -108,6 +109,22 @@ section {
     font-size: 24px;
     margin: 0;
 }
+
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
+}
+
 
 .form-input {
     border: 1px solid #024e76;
@@ -159,7 +176,6 @@ section {
 }
 
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -167,6 +183,10 @@ section {
     font-size: 55px;
     color: #024e76;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50% 
 }
 
 .primary-border {
@@ -188,33 +208,34 @@ section {
     justify-content: space-between;
 }
 
-.step h3 {
-    color:#024e76;
-    font-size: 46px;
-    flex: 1 30%;
-}
-
-.step-text p {
-    color:#39a6b2;
-    font-size: 18px;
-}
-
 .step-text h4 {
     font-size: 26px;
     line-height: 1.5;
     color: #024e76;
 }
 
+.step h3 {
+    color:#024e76;
+    font-size: 46px;
+    margin-top: 10px;
+    flex: 1 30%;
+}
+
 .step-info {
     flex: 2 70%;
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .step-img {
     flex: 1 12%;
     margin-right: 20px;
+}
+
+.step-text p {
+    color:#39a6b2;
+    font-size: 18px;
 }
 
 .step-text {
@@ -277,14 +298,13 @@ section {
 
 .section-title {
     font-size: 55px;
-    display: inline-block;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
     margin-bottom: 35px;
     color:#024e76;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
     text-align: center;
-    margin: 0 auto 35px auto; 
+    margin: 0 auto 35px auto;
     width: 50%;
 }
 
@@ -313,12 +333,18 @@ section {
     height: 400px;
 }
 
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info > * { 
+    flex: 1;
+    margin: 15px;
+}
+
 .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
     color: white !important; 
 }
 
@@ -332,27 +358,28 @@ section {
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
-    color: white;
-  }
+}
 
-  .contact-form input,.contact-form textarea {
+.contact-form input, .contact-form textarea {
     border: 1px solid #024e76;
     display: block;
-    padding: 7px 15px;
-    font-size: 16px; 
+    padding: 7px 15px; 
+    font-size: 16px;
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
-    margin-top: 5px;
-  }
+    margin-top:5px;
+}
 
-  .contact-form button {
-    width: 100%;
+.contact-form button {
+    width:100%;
     border: none;
     background: #fce138;
     color: #024e76;
     text-align: center;
-  }
+    padding: 15px 0;
+    font-size: 16px;
+}
   
 .contact-info a {
     color: #fce138;
